@@ -1,8 +1,7 @@
 # Algoritmo Aproximativo para TSP
 **Trabalho 1 de Algoritmos e Estruturas de Dados III**  
-Eduarda Pereira Medeiros e Victor Matheus Reiznautt da Gama
 
-O projeto desenvolvida inclui uma implementações dos algoritmos Held-Karp e Christofides com o objetivo de encontrar respostas ótimas ou subótimas para instâncias do Problema do Caixeiro Viajante (TSP).
+O projeto desenvolvido inclui implementações dos algoritmos Held-Karp e Christofides com o objetivo de encontrar respostas ótimas ou subótimas para instâncias do Problema do Caixeiro Viajante (TSP).
 
 ## Como compilar?
 
@@ -14,7 +13,6 @@ make
 
 No Windows: 
 
-O comando é levemente mais longo...
 ```PowerShell
 g++ -Iblossom5 -c wrapper_blossom.cpp -o output/wrapper_blossom.o ; gcc -c christofides.c -o output/christofides.o ; gcc -c heldkarp.c -o output/heldkarp.o ; gcc -c main.c -o output/main.o ; gcc -c operacoesGrafo.c -o output/operacoesGrafo.o ; g++ blossom5/misc.cpp blossom5/PMduals.cpp blossom5/PMexpand.cpp blossom5/PMinit.cpp blossom5/PMinterface.cpp blossom5/PMmain.cpp blossom5/PMrepair.cpp blossom5/PMshrink.cpp blossom5/MinCost/MinCost.cpp blossom5/GEOM/GPMinit.cpp blossom5/GEOM/GPMinterface.cpp blossom5/GEOM/GPMkdtree.cpp blossom5/GEOM/GPMmain.cpp output/wrapper_blossom.o output/operacoesGrafo.o output/main.o output/christofides.o output/heldkarp.o -o tsp
 ```
