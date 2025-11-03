@@ -5,7 +5,7 @@
 #include "operacoesGrafo.h"
 
 extern "C" {
-    int *emparalhamento_minimo_perfeito(Grafo grafo_impar) {
+    int *emparelhamento_minimo_perfeito(Grafo grafo_impar) {
         int n_arestas = grafo_impar.vertices * (grafo_impar.vertices - 1) / 2;
         int *resultado = (int *) malloc(grafo_impar.vertices * sizeof(int));
         PerfectMatching *PM = new PerfectMatching(grafo_impar.vertices, n_arestas);

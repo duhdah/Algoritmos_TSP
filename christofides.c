@@ -10,7 +10,7 @@ int christofides(Grafo grafo) {
     Grafo grafo_impar = criaGrafoImpar(grafo, &mst);
 
      // TERCEIRO PASSO: Encontrar o emparelhamento perfeito de custo mínimo do grafo dos vértices ímpares
-    int *resultado = emparalhamento_minimo_perfeito(grafo_impar);
+    int *resultado = emparelhamento_minimo_perfeito(grafo_impar);
 
     // QUARTO PASSO: Adicionar as arestas do emparelhamento à MST
     int **contagem_arestas = malloc(mst.vertices * sizeof(int *));

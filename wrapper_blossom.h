@@ -7,7 +7,7 @@ extern "C" {
 
     #include "operacoesGrafo.h"
 
-    int *emparalhamento_minimo_perfeito(Grafo grafo_impar);
+    int *emparelhamento_minimo_perfeito(Grafo grafo_impar);
 
     #ifdef __cplusplus
 }
